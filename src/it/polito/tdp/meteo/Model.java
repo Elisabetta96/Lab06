@@ -114,7 +114,7 @@ public class Model {
 			m.replace(sc.getNome(),m.get(sc.getNome())+1);
 			if (sc.getNome().equals(oldc)) {
 				nday++;
-			} else {
+			} else  {
 				if (nday>=NUMERO_GIORNI_CITTA_CONSECUTIVI_MIN) {
 					nday=0;
 					oldc=sc.getNome();
