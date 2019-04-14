@@ -30,6 +30,7 @@ public class SimpleCity {
 		this.costo = costo;
 	}
 
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
